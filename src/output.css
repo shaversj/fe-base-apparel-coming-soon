@@ -518,6 +518,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.-ml-8{
+  margin-left: -2rem;
+}
+
 .flex{
   display: flex;
 }
