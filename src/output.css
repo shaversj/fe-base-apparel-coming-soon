@@ -714,3 +714,12 @@ video {
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
+.focus\:bg-soft-red:focus{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 93% 68% / var(--tw-bg-opacity));
+}
+
+.focus\:outline-trans-4:focus{
+  outline-color: hsl(0, 74%, 74%);
+}
