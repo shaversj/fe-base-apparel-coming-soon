@@ -604,6 +604,10 @@ video {
   --tw-gradient-to-position:  ;
 }
 
+.pb-8{
+  padding-bottom: 2rem;
+}
+
 .pl-4{
   padding-left: 1rem;
 }
@@ -644,16 +648,16 @@ video {
   font-family: Josefin Sans, sans-serif;
 }
 
-.text-\[10px\]{
-  font-size: 10px;
-}
-
 .text-\[11px\]{
   font-size: 11px;
 }
 
 .text-\[2rem\]{
   font-size: 2rem;
+}
+
+.text-\[8px\]{
+  font-size: 8px;
 }
 
 .text-xs{
