@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <div class="min-w-sm max-w-sm min-h-screen bg-trans-2">
+    <main class="min-w-sm min-h-screen max-w-sm bg-trans-2">
       <div class="grid">
         <div class="logo h-[71px] pl-7 pt-6">
           <img class="h-[18px]" src="./src/assets/images/logo.svg" alt="" />
         </div>
         <img
-          class="min-w-full"
+          class="min-w-full max-w-sm"
           src="./src/assets/images/hero-mobile.jpg"
           alt=""
         />
@@ -39,7 +40,7 @@
             placeholder="Email Address"
           />
           <button
-            class="to flex h-10 w-14 -ml-8 items-center justify-center rounded-3xl bg-gradient-to-r from-trans-3 to-trans-4 shadow-lg"
+            class="to -ml-8 flex h-10 w-14 items-center justify-center rounded-3xl bg-gradient-to-r from-trans-3 to-trans-4 shadow-lg", title="Email Address Button"
           >
             <img
               class="rounded-full"
@@ -49,6 +50,17 @@
           </button>
         </div>
       </div>
-    </div>
+    </main>
+    <footer>
+      <div class="flex max-w-sm items-center justify-center bg-trans-2">
+        <div class="attribution font-josefin text-[10px]">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/shaversj/qr-code-component">Josh</a>.
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
