@@ -31,24 +31,30 @@
           store. Add your email below to stay up-to-date with announcements and
           our launch deals.</span
         >
-        <div
+        <form
           class="message flex items-center justify-center pt-5 text-desaturated-red"
         >
           <input
-            class="focus:outline-trans-4 border-red-150 h-10 w-64 rounded-3xl border bg-trans-2 pl-4 font-josefin text-xs text-black placeholder-desaturated-red"
-            type="text"
+            class="border-trans-3 h-10 w-64 rounded-3xl border bg-trans-2 pl-4 font-josefin text-xs text-black placeholder-desaturated-red focus:outline-trans-4"
+            type="email"
             placeholder="Email Address"
           />
-          <button
-            class="focus:bg-soft-red -ml-8 flex h-10 w-14 items-center justify-center rounded-3xl bg-gradient-to-r from-trans-3 to-trans-4 shadow-lg", title="Email Address Button"
+          <!-- <input type="submit" value="Submit Now!"> -->
+          <input class="object-scale-down rounded-full -ml-8 flex h-10 w-14 items-center justify-center bg-gradient-to-r from-trans-3 to-trans-4 shadow-lg" type="image" name="submit" src="./src/assets/images/icon-arrow.svg">
+
+
+          <!-- <button
+            class="-ml-8 flex h-10 w-14 items-center justify-center rounded-3xl bg-gradient-to-r from-trans-3 to-trans-4 shadow-lg"
+            ,
+            title="Email Address Button"
           >
             <img
               class="rounded-full"
               src="./src/assets/images/icon-arrow.svg"
               alt=""
             />
-          </button>
-        </div>
+          </button> -->
+        </form>
       </div>
     </main>
     <footer>
