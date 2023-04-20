@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         "pattern-desktop": "url('/src/assets/images/bg-pattern-desktop.svg')",
+        "hero-mobile": "url('/src/assets/images/hero-mobile.jpg')",
+        "hero-desktop": "url('/src/assets/images/hero-desktop.jpg')",
+        "logo": "url('/src/assets/images/logo.jpg')",
       },
       screens: {
         sm: "375px",

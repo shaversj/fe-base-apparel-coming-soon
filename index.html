@@ -7,58 +7,41 @@
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <main class="min-w-sm min-h-screen max-w-sm bg-trans-2">
-      <div class="grid">
-        <div class="logo h-[71px] pl-7 pt-6">
-          <img class="h-[18px]" src="./src/assets/images/logo.svg" alt="" />
-        </div>
-        <img
-          class="min-w-full max-w-sm"
-          src="./src/assets/images/hero-mobile.jpg"
-          alt=""
-        />
+    <div class="grid place-items-center">
+      <main
+      class="lg:gap-x-40 lg:grid-cols-[auto, auto]  lg:min-h-[800px] lg:min-w-[1450px] lg:bg-pattern-desktop sm:min-h-screen grid sm:grid-rows-[auto,250px,1fr]  bg-trans-2 sm:max-w-[375px]"
+    >
+      <header class="logo h-[71px] pl-7 pt-6 lg:pl-40 lg:pt-14">
+        <img class="h-[18px] lg:h-[36px]" src="./src/assets/images/logo.svg" alt="" />
+      </header>
+      <div class="bg-hero-mobile lg:col-start-2 lg:col-end-3 lg:w-[800px] lg:bg-hero-desktop lg:object-cover lg:row-span-full lg:bg-no-repeat"></div>
+      <div class="content-center lg:min-w-[700px]">
+        <span class="lg:pt-36 pt-20 lg:pl-40 lg:text-left text-center font-josefin text-[2.7rem] lg:text-[4rem] font-thin uppercase leading-[46px] lg:leading-[70px] tracking-[.8rem] text-desaturated-red block">We're</span>
+        <span class="lg:pl-40 lg:text-left text-center font-josefin text-[2.7rem] lg:text-[4rem] uppercase leading-[46px] lg:leading-[70px] tracking-[.8rem] block">coming soon</span>
         <span
-          class="pt-12 text-center font-josefin text-[2rem] font-thin uppercase leading-9 tracking-[.4rem] text-desaturated-red"
-          >We're
-        </span>
-        <span
-          class="text-center font-josefin text-[2rem] font-bold uppercase leading-9 tracking-[.4rem]"
-          >coming soon</span
-        >
-        <span
-          class="pl-6 pr-6 pt-2 text-center text-[11px] leading-5 text-desaturated-red"
-          >Hello fellow shoppers! We're currently building our new fashion
-          store. Add your email below to stay up-to-date with announcements and
-          our launch deals.</span
-        >
+        class="lg:pl-40 lg:text-left block text-center pl-7 pr-7 pt-3 font-josefin font-semibold text-[14px] lg:text-[18px] leading-6 lg:leading-8 text-desaturated-red"
+        >Hello fellow shoppers! We're currently building our new fashion
+        store. Add your email below to stay up-to-date with announcements and
+        our launch deals.</span>
         <form
-          class="message flex items-center justify-center pt-5 text-desaturated-red"
-        >
-          <input
-            class="h-10 w-64 rounded-3xl border border-trans-3 bg-trans-2 pl-4 font-josefin text-xs text-black placeholder-desaturated-red focus:outline-trans-4"
-            type="email"
-            placeholder="Email Address"
-          />
-          <input
-            class="-ml-8 flex h-10 w-14 items-center justify-center rounded-full bg-gradient-to-r from-trans-3 to-trans-4 object-scale-down shadow-lg"
-            type="image"
-            name="submit"
-            title="submit"
-            src="./src/assets/images/icon-arrow.svg"
-          />
-        </form>
+        class="message lg:pl-40 flex lg:items-start lg:justify-start items-center justify-center pt-5 text-desaturated-red"
+      >
+        <input
+          class=" lg:h-[56px] lg:w-[450px] h-10 w-64 rounded-3xl border border-trans-3 bg-trans-2 pl-4 font-josefin text-xs text-black placeholder-desaturated-red focus:outline-trans-4"
+          type="email"
+          placeholder="Email Addres"
+        />
+        <input
+          class="-ml-8 flex h-10 w-14 lg:h-[56px] lg:w-[100px] lg:-ml-12 items-center justify-center rounded-full bg-gradient-to-r from-trans-3 to-trans-4 object-scale-down shadow-lg"
+          type="image"
+          name="submit"
+          title="submit"
+          src="./src/assets/images/icon-arrow.svg"
+        />
+      </form>
       </div>
     </main>
-    <footer>
-      <div class="flex max-w-sm items-center justify-center bg-trans-2 pb-8">
-        <div class="attribution font-josefin text-[8px]">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by
-          <a href="https://github.com/shaversj/qr-code-component">Josh</a>.
-        </div>
-      </div>
-    </footer>
+    </div>
+
   </body>
 </html>
