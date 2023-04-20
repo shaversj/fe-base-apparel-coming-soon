@@ -809,11 +809,6 @@ video {
     background-repeat: no-repeat;
   }
 
-  .lg\:object-cover{
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-
   .lg\:pl-40{
     padding-left: 10rem;
   }
